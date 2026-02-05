@@ -3,7 +3,7 @@ import reactLogo from './assets/flork-heart.png'
 import dance from './assets/dance.gif'
 import './App.css'
 import EvilButton from './evil_button'
-import { BrowserRouter, Link, Routes, Route} from 'react-router';
+import { HashRouter, Link, Routes, Route} from 'react-router';
 
 
 function FirstPage() {
@@ -49,12 +49,12 @@ function App() {
   return (
     <>
       <section id="center">
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<MainWindow />} />
             <Route path="/hype" element={<ResultWindow />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </section>
     </>
   )
