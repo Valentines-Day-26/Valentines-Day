@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react'
 import reactLogo from './assets/flork-heart.png'
 import dance from './assets/dance.gif'
-import heroImg from './assets/hero.png'
 import './App.css'
 import EvilButton from './evil_button'
 import { BrowserRouter, Link, Routes, Route} from 'react-router';
