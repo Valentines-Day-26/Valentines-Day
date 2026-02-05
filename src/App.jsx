@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useRef } from 'react'
 import reactLogo from './assets/flork-heart.png'
 import dance from './assets/dance.gif'

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useLayoutEffect} from "react"
+import React from 'react';
 
 const OFFSET = 50
 
